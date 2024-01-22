@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground", "src\Playground\Playground.csproj", "{FB49A8B5-AA36-4E5A-BF1C-374D00AADE33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9FF725BC-7C90-48BB-86CE-896F1F1644BC}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+		src\Directory.Packages.props = src\Directory.Packages.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB49A8B5-AA36-4E5A-BF1C-374D00AADE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB49A8B5-AA36-4E5A-BF1C-374D00AADE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB49A8B5-AA36-4E5A-BF1C-374D00AADE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB49A8B5-AA36-4E5A-BF1C-374D00AADE33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6712D85-3A9D-4604-B8C1-019DFE1B798A}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB49A8B5-AA36-4E5A-BF1C-374D00AADE33} = {9FF725BC-7C90-48BB-86CE-896F1F1644BC}
+	EndGlobalSection
+EndGlobal
